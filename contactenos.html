@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/contactanos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Bootstrap 5 JS con Popper.js incluido -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+            <header>
+        <div class="logo">
+            <img src="Img/Logo1.jpg" alt="Pelito De Oro Logo">
+        </div>
+        <div class="nav">
+
+            <nav>
+                <ul>
+
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="nuevo.html">Nuevo</a></li>
+                    <li><a href="todo.html">Ver Todo</a></li>
+                    <li class="dropdown">
+                        <a href="todo.html" class="dropbtn">Accesorios</a>
+                        <div class="dropdown-content">
+                            <a href="anillos.html">Anillos</a>
+                            <a href="aretes.html">Aretes</a>
+                            <a href="collar.html">Collar</a>
+                            <a href="earcuff.html">Earcuff</a>
+                            <a href="candongas.html">Candongas</a>
+                        </div>
+                    </li>
+                    <li><a href="sobre-nosotros.html">Sobre Nosotros</a></li>
+                    <li><a href="contactenos.html">Contáctanos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+     <section class="contact-hero">
+            <h1 class="subtitle">Contáctanos</h1>
+            <p>Estamos aquí para ayudarte. Ponte en contacto con nosotros para cualquier consulta sobre nuestros productos de joyería.</p>
+        </section>
+
+        <div class="contact-container">
+            <div class="contact-form">
+                <h2 class="subtitle" class="subtitle">Envíanos un Mensaje</h2>
+                <form action="#" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nombre">Nombre *</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="apellido">Apellido *</label>
+                            <input type="text" id="apellido" name="apellido" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="pelitodeorojoyeria@gmail.com">Correo Electrónico *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="asunto">Asunto *</label>
+                        <select id="asunto" name="asunto" required>
+                            <option value="">Selecciona un asunto</option>
+                            <option value="consulta-producto">Consulta sobre Producto</option>
+                            <option value="pedido">Información de Pedido</option>
+                            <option value="devolucion">Devolución/Cambio</option>
+                            <option value="personalizado">Pedido Personalizado</option>
+                            <option value="otro">Otro</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="mensaje">Mensaje *</label>
+                        <textarea id="mensaje" name="mensaje" placeholder="Cuéntanos cómo podemos ayudarte..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Enviar Mensaje</button>
+                </form>
+            </div>
+
+            <div class="contact-info">
+                <h2 class="subtitle">Información de Contacto</h2>
+                
+                <div class="info-item">
+                    <h23 class="subtitle">📍 Dirección</h3>
+                    <p>Medellín, Antioquia<br>Colombia</p>
+                </div>
+
+                <div class="info-item">
+                    <h3 class="subtitle" class="subtitle" class="subtitle">📞 Teléfono</h3>
+                    <p><a href="tel:+573001234567">+57 323 496 7354</a></p>
+                </div>
+
+                <div class="info-item">
+                    <h3 class="subtitle" class="subtitle" class="subtitle">📧 Email</h3>
+                    <p><a href="mailto:info@pelitoDeoro.com">pelitodeorojoyeria@gmail.com</a></p>
+                </div>
+
+                <div class="info-item">
+                    <h3 class="subtitle" class="subtitle">🕒 Horarios de Atención</h3>
+                    <p>Lunes a Viernes: 9:00 AM - 6:00 PM<br>
+                    Sábados: 9:00 AM - 2:00 PM<br>
+                    Domingos: Cerrado</p>
+                </div>
+
+                <div class="info-item">
+                    <h3 class="subtitle" class="subtitle">💬 Redes Sociales</h3>
+                    <p>
+                        <a href="#" style="margin-right: 1rem;">Facebook</a>
+                        <a href="#" style="margin-right: 1rem;">Instagram</a>
+                        <a href="#">WhatsApp</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <section class="map-section">
+            <h2 class="subtitle">📍 Nuestra Ubicación</h2>
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.2638383598845!2d-75.55668692534844!3d6.333620424629947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442f3f6a2ba7c7%3A0x8c3e0b3b6e7e8a9b!2sBello%2C%20Antioquia%2C%20Colombia!5e0!3m2!1ses!2sus!4v1699123456789!5m2!1ses!2sus"
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+
+            <footer>
+        <div class="footer-content">
+            <p>© 2025 Pelito De Oro. Todos los derechos reservados.</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com" target="_blank" aria-label="Instagram"><i
+                        class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com" target="_blank" aria-label="Facebook"><i
+                        class="fab fa-facebook-f"></i></a>
+                <a href="https://www.tiktok.com" target="_blank" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.youtube.com" target="_blank" aria-label="YouTube"><i
+                        class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="script.js"></script> -->
+    <script src="script.js"></script>
+    
+</body>
+</html>
